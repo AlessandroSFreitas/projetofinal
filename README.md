@@ -1,2 +1,2 @@
 # projetofinal
-Projeto final ref. ao TCC Fadergs
+Projeto final ref. ao TCC (App Adoção Pets)
