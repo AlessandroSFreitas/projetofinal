@@ -1,0 +1,77 @@
+POR FAVOR, LEIA TUDO.............................. OBRIGADO!!!!!!
+
+- Pessoal, criem uma pasta que vcs desejam clonar o projeto na m�quina de vcs;
+
+- Depois, abram o git bash que esta instalado na m�quina de vcs e naveguem pelo git bash at�
+a pasta que vcs desejam fazer o clone desse projeto;
+
+- Em seguida, dentro da pasta desejada no git bash, executem o comando 
+"git clone https://github.com/qwertyFFF/projetofinal.git"
+
+- Aguardem uns minutos, at� finalizar o clone;
+
+- Com o clone finalizado, abram o VS Code e abram o projeto.
+IMPORTANTE: Abram o projeto -> adocaoapp2;
+
+- Depois disso, abram o CMD e naveguem at� a pasta do projeto -> adocaoapp2;
+
+- Ativem no celular de vcs o modo programador e o modo debug do celular de vcs. 
+OBS: Tem no curso da Udemy como fazer isso, � bem simples;
+OBS2: Tendo em vista que vcs j� instalaram o Android Studio e o SDK e as vers�es do Android
+compativeis com o celular de vcs cfe. manda a documenta��o do
+React Native -> https://facebook.github.io/react-native/docs/getting-started.html
+
+- Depois, dentro da pasta do projeto, executem o comando no CMD 
+"react-native run-android".
+ATEN��O: para "buildar" o projeto, conectem o celular de vcs no PC antes de dar o comando, 
+assim o React vai ver que vcs possuem um dispositivo conectado para executar o debug;
+
+- Aguardem uns minutos o React executar o debug no celular de vcs;
+
+- Ap�s isso ele ira instalar o App no celular de vcs e pronto;
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+- Para executar novamente o App, siga esses passos:
+
+1 => Com o CMD aberto, navegue at� a pasta do projeto -> adocaoapp2;
+
+2 => Conecte o celular no PC;
+
+3 => Execute o comando "react-native run-android" assim o React Native vai "buildar"
+novamente o app no celular de vcs; 
+
+4 => Aguarde ele instalar novamente o App no celular.
+OBS: ele vai pedir permiss�o para instalar novamente, dai � s� dar essa permiss�o;
+
+5 => Ao finalizar o build, execute o comando "npm start" na mesma pasta do projeto -> adocaoapp2;
+
+6 => O npm vai fazer a subida do servidor na porta 8081 e vai fazer o bundle (leitura) do 
+projeto novamente;
+
+7 => Aguarde uns segundos at� o npm ler os arquivos e pronto, app no ar novamente;
+
+8 => OLHEM O VIDEO "14. Alternativa passo a passo para execu��o de apps no emulador ou celular" 
+DO CURSO DE REACT NATIVE, muitas informa��es importantes ali; OLHEM!!!!!!!!!!!!!!!!!!!!
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+- Dicas do git bash
+
+1 => SEMPRE!!!!! QUE FOREM PROGRAMAR, ABRAM O GIT BASH E EXECUTEM O COMANDO
+"GIT PULL" DENTRO DA PASTA DO PROJETO -> adocaoapp2;
+OBS: esse comando vai puxar todos os commits feitos por n�s pra dentro do reposit�rio
+local de vcs;
+
+2 => Quando forem executar commits na aplica��o, descrevam o que voc�s est�o subindo:
+EX: "Melhoria do bot�o recarregar";
+
+3 => Dicas sobre como usar o VS Code eu explico pra vcs na aula;
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Config. portas entre PC e Device executar o comando no CMD: adb reverse tcp:8081 tcp:8081
+
+Executar o reload entre PC e Device executar o comando no CMD: adb shell input keyevent 46 46 
+
+
