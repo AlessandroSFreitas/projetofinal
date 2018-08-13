@@ -1,10 +1,15 @@
-# projetofinal
-Projeto final ref. ao TCC (App Adoção Pets)
+- https://firebase.google.com/?authuser=0
 
-Passo a passo:
+- https://facebook.github.io/react-native/docs/getting-started.html
 
-- Instalar o Git -> controle de versões (https://git-scm.com/);
-- Instalar NodeJS (https://nodejs.org/en/);
-- Instalar uma IDE do seu gosto (Recomendo VS Code);
-- Seguir os passos de instalação do React Native (Arquivo anexado no projeto);
+- https://nodejs.org/en/
+
+- http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk8-downloads-2133151.html
+
+- https://developer.android.com/studio/
+
+- https://www.python.org/downloads/ -> Instalar Python 2 (Qualquer versão da 2. em diante)
+
+- Arquivo passo a passo.txt anexado no projeto
+
 
