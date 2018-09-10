@@ -60,11 +60,11 @@ DO CURSO DE REACT NATIVE, muitas informa��es importantes ali; OLHEM!!!!!!!!!
 
 1 => SEMPRE!!!!! QUE FOREM PROGRAMAR, ABRAM O GIT BASH E EXECUTEM O COMANDO
 "GIT PULL" DENTRO DA PASTA DO PROJETO -> adocaoapp2;
-OBS: esse comando vai puxar todos os commits feitos por n�s pra dentro do reposit�rio
+OBS: esse comando vai puxar todos os commits feitos por nós pra dentro do repositório
 local de vcs;
 
-2 => Quando forem executar commits na aplica��o, descrevam o que voc�s est�o subindo:
-EX: "Melhoria do bot�o recarregar";
+2 => Quando forem executar commits na aplicação, descrevam o que vocês estão subindo:
+EX: "Melhoria do botão recarregar";
 
 3 => Dicas sobre como usar o VS Code eu explico pra vcs na aula;
 
