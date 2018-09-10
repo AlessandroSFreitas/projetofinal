@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, Image, Button} from 'react-native';
+import {Platform, StyleSheet, Text, View, Image} from 'react-native';
 import Imagem_react from './imagens/react_footer.png';
+import Button from 'react-native-button';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -10,13 +11,26 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Image source={Imagem_react}></Image>
-        <Text style={styles.welcome}>SharePets</Text>
-      </View>
-    );
+    constructor(props, context) {
+        super(props, context);
+    }
+    _handlePress() {
+        console.log('Pressed!');
+    }
+    render() {
+        return (
+            <View style={styles.container}>
+                <Image source={Imagem_react}></Image>
+                <Text style={styles.welcome}>SharePets</Text>
+                <Button
+                    containerStyle={{padding:15, height:65, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
+                    style={{fontSize: 20, color: 'white', textAlign: 'center'}}
+                    styleDisabled={{color: 'red'}}
+                    onPress={() => this._handlePress()}>
+                    Vamos começar!
+                </Button>
+            </View>      
+        );
   }
 }
 
