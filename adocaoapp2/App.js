@@ -22,13 +22,22 @@ export default class App extends Component {
             <View style={styles.container}>
                 <Image source={Imagem_react}></Image>
                 <Text style={styles.welcome}>SharePets</Text>
-                <Button
-                    containerStyle={{padding:15, height:65, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
-                    style={{fontSize: 20, color: 'white', textAlign: 'center'}}
-                    styleDisabled={{color: 'red'}}
-                    onPress={() => this._handlePress()}>
-                    Vamos começar!
-                </Button>
+                <View style={{padding:15}}>    
+                    <Button
+                        containerStyle={{width:150, height:50, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
+                        style={{fontSize: 20, color:'white', textAlign:'center', padding:10}}
+                        onPress={() => this._handlePress()}>
+                        Entrar
+                    </Button>
+                </View>
+                <View style={{padding:15}}>
+                    <Button
+                        containerStyle={{width:150, height:50, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
+                        style={{fontSize: 20, color:'white',textAlign:'center', padding:10}}
+                        onPress={() => this._handlePress()}>
+                        Cadastrar
+                    </Button>
+                </View>    
             </View>      
         );
   }
