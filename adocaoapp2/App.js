@@ -15,7 +15,7 @@ export default class App extends Component {
         super(props, context);
     }
     _handlePress() {
-        console.log('Pressed!');
+        alert('Aqui');
     }
     render() {
         return (

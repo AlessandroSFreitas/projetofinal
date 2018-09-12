@@ -10,10 +10,12 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-react-native": "^4.0.0",
+    "npm": "^6.4.1",
     "react": "^16.4.1",
     "react-dom": "^16.5.0",
     "react-native": "^0.55.4",
     "react-native-button": "^2.3.0",
+    "react-native-router-flux": "^4.0.1",
     "reactstrap": "^6.4.0"
   },
   "devDependencies": {
