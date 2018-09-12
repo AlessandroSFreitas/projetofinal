@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
+import {Platform, StyleSheet, Text, View, Image} from 'react-native';
 import Imagem_react from './imagens/react_footer.png';
 import Button from 'react-native-button';
 
-export default class App extends Component {
+class PageInit extends Component {
     constructor(props, context) {
         super(props, context);
     }
@@ -36,6 +36,8 @@ export default class App extends Component {
   }
 }
 
+export default PageInit;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -47,5 +49,10 @@ const styles = StyleSheet.create({
     fontSize: 40,
     textAlign: 'center',
     margin: 10,
+  },
+  instructions: {
+    textAlign: 'center',
+    color: '#333333',
+    marginBottom: 5,
   },
 });
