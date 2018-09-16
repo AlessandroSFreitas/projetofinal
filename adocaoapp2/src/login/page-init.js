@@ -33,7 +33,7 @@ class PageInit extends Component {
                 </View>    
             </View>      
         );
-  }
+    }
 }
 
 export default PageInit;
