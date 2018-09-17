@@ -1,8 +1,8 @@
 import {AppRegistry} from 'react-native';
 import App from './App';
-//import PageInit from './src/login/page-init';
+import App2 from './App2';
 import {name as appName} from './app.json';
 //import {} from 'react-native-router-flux';
 
-AppRegistry.registerComponent(appName, () => App);
-//AppRegistry.registerComponent(appName, () => PageInit);
+AppRegistry.registerComponent(appName, () => App2);
+

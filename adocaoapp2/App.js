@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import Imagem_react from './imagens/react_footer.png';
+import Imagem_react from './react_footer.png';
 import Button from 'react-native-button';
 
 export default class App extends Component {
@@ -33,7 +33,7 @@ export default class App extends Component {
                 </View>    
             </View>      
         );
-  }
+    }
 }
 
 const styles = StyleSheet.create({
