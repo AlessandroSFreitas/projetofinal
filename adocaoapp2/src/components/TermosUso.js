@@ -27,8 +27,8 @@ export default class TermosUso extends Component {
 				<View style={{ flexDirection: 'column'}}>
 					<View style={{ flexDirection: 'row' }}>
 						<CheckBox
-						value={this.state.checked}
-						onValueChange={() => this.setState({ checked: this.state.checked })}
+							value={this.state.checked}
+							onValueChange={() => this.setState({ checked: this.state.checked })}
 						/>
 						<Text style={{marginTop: 5}}> Li e aceito os termos de uso</Text>
 					</View>

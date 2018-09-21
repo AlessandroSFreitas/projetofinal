@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import Imagem_react from './react_footer.png';
+import Imagem_react from '../imgs/react_footer.png';
 import Button from 'react-native-button';
 import { Actions } from 'react-native-router-flux';
 
