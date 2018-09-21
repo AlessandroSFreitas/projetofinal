@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, TextInput, TouchableOpacity,StyleSheet} from 'react-native';
 
-export default class App2 extends Component {
+export default class Login extends Component {
     constructor(props) {
         super(props);
         this.state = { text: '' };
@@ -9,21 +9,21 @@ export default class App2 extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <TextInput style = {styles.input} 
-                    autoCapitalize="none" 
-                    onSubmitEditing={() => this.passwordInput.focus()} 
-                    autoCorrect={false} 
-                    keyboardType='email-address' 
-                    returnKeyType="next" 
-                    placeholder='Email' 
+                <TextInput style = {styles.input}
+                    autoCapitalize="none"
+                    onSubmitEditing={() => this.passwordInput.focus()}
+                    autoCorrect={false}
+                    keyboardType='email-address'
+                    returnKeyType="next"
+                    placeholder='Email'
                     placeholderTextColor='white'
                 />
 
-                <TextInput style = {styles.input}   
-                    returnKeyType="go" 
-                    ref={(input)=> this.passwordInput = input} 
-                    placeholder='Password' 
-                    placeholderTextColor='white' 
+                <TextInput style = {styles.input}
+                    returnKeyType="go"
+                    ref={(input)=> this.passwordInput = input}
+                    placeholder='Password'
+                    placeholderTextColor='white'
                     secureTextEntry
                 />
 

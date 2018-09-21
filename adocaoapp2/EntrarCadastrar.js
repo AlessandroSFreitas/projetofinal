@@ -2,13 +2,11 @@ import React, {Component} from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
 import Imagem_react from './react_footer.png';
 import Button from 'react-native-button';
+import { Actions } from 'react-native-router-flux';
 
-export default class App extends Component {
+export default class EntrarCadastrar extends Component {
     constructor(props, context) {
         super(props, context);
-    }
-    _handlePress() {
-        alert('Aqui');
     }
     render() {
         return (
@@ -19,7 +17,7 @@ export default class App extends Component {
                     <Button
                         containerStyle={{width:150, height:50, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
                         style={{fontSize: 20, color:'white', textAlign:'center', padding:10}}
-                        onPress={() => this._handlePress()}>
+                        onPress={() => { Actions.login(); }}>
                         Entrar
                     </Button>
                 </View>
@@ -27,7 +25,7 @@ export default class App extends Component {
                     <Button
                         containerStyle={{width:150, height:50, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
                         style={{fontSize: 20, color:'white',textAlign:'center', padding:10}}
-                        onPress={() => this._handlePress()}>
+                        onPress={() => {}}>
                         Cadastrar
                     </Button>
                 </View>

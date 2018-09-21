@@ -1,9 +1,24 @@
-import {AppRegistry} from 'react-native';
-import App from './App';
-import App2 from './App2';
-import App3 from './App3';
-import {name as appName} from './app.json';
-import {} from 'react-native-router-flux';
+import React, { Component } from 'react';
+import { AppRegistry, YellowBox } from 'react-native';
+YellowBox.ignoreWarnings(['Warning: isMounted(...) is deprecated', 'Module RCTImageLoader']);
+import { Router, Scene } from 'react-native-router-flux';
 
-AppRegistry.registerComponent(appName, () => App3);
+import EntrarCadastrar from './EntrarCadastrar';
+import Login from './Login';
+import TermosUso from './TermosUso';
 
+export default class SharePets extends Component {
+	render(){
+		return(
+			<Router>
+				<Scene key='root'>
+					<Scene key='termosuso' component={TermosUso} initial />
+					<Scene key='entrarcadastrar' component={EntrarCadastrar} />
+					<Scene key='login' component={Login} />
+				</Scene>
+			</Router>
+		);
+	}
+}
+
+AppRegistry.registerComponent('adocaoapp2', () => SharePets);
