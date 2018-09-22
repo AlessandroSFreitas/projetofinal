@@ -6,7 +6,7 @@ export default class Login extends Component {
         super(props);
         this.state = { text: '' };
     }
-    render() {
+    render(){
         return (
             <View style={styles.container}>
                 <TextInput style = {styles.input}

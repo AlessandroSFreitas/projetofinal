@@ -7,7 +7,7 @@ export default class TermosUso extends Component {
 	constructor(props, context) {
 		super(props, context);
     }
-	state() {
+	state(){
 		this.state = checked;
 	}
 	render(){

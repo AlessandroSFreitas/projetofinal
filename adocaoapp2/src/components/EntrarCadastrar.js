@@ -8,7 +8,7 @@ export default class EntrarCadastrar extends Component {
     constructor(props, context) {
         super(props, context);
     }
-    render() {
+    render(){
         return (
             <View style={styles.container}>
                 <Image source={Imagem_react}></Image>
@@ -25,7 +25,7 @@ export default class EntrarCadastrar extends Component {
                     <Button
                         containerStyle={{width:150, height:50, overflow:'hidden', borderRadius:4, backgroundColor: 'green'}}
                         style={{fontSize: 20, color:'white',textAlign:'center', padding:10}}
-                        onPress={() => {}}>
+                        onPress={() => { Actions.telacadastro(); }}>
                         Cadastrar
                     </Button>
                 </View>
