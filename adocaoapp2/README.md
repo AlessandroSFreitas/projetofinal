@@ -2,7 +2,7 @@ POR FAVOR, LEIA TUDO.............................. OBRIGADO!!!!!!
 
 - Pessoal, criem uma pasta que vcs desejam clonar o projeto na máquina de vcs;
 
-- Depois, abram o git bash que esta instalado na maquina de vcs e naveguem pelo git bash at�
+- Depois, abram o git bash que esta instalado na maquina de vcs e naveguem pelo git bash ate
 a pasta que vcs desejam fazer o clone desse projeto;
 
 - Em seguida, dentro da pasta desejada no git bash, executem o comando
@@ -17,18 +17,18 @@ IMPORTANTE: Abram o projeto -> adocaoapp2;
 
 - Ativem no celular de vcs o modo programador e o modo debug do celular de vcs.
 OBS: Tem no curso da Udemy como fazer isso, é bem simples;
-OBS2: Tendo em vista que vcs ja instalaram o Android Studio e o SDK e as vers�es do Android
+OBS2: Tendo em vista que vcs ja instalaram o Android Studio e o SDK e as versoes do Android
 compativeis com o celular de vcs cfe. manda a documentacao do
 React Native -> https://facebook.github.io/react-native/docs/getting-started.html
 
 - Depois, dentro da pasta do projeto, executem o comando no CMD
 "react-native run-android".
-ATENCAO: para "buildar" o projeto, conectem o celular de vcs no PC antes de dar o comando,
+ATENCAO: para "buildar" op rojeto, conectem o celular de vcs no PC antes de dar o comando,
 assim o React vai ver que vcs possuem um dispositivo conectado para executar o debug;
 
 - Aguardem uns minutos o React executar o debug no celular de vcs;
 
-- Ap�s isso ele ira instalar o App no celular de vecs  pronto;
+- Apos isso ele ira instalar o App no celular de vcs  pronto;
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
@@ -62,8 +62,6 @@ local de vcs;
 
 2 => Quando forem executar commits na aplicação, descrevam o que vocês estão subindo:
 EX: "Melhoria do botão recarregar";
-
-3 => Dicas sobre como usar o VS Code eu explico pra vcs na aula;
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
