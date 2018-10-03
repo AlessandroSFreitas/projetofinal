@@ -6,7 +6,7 @@ POR FAVOR, LEIA TUDO.............................. OBRIGADO!!!!!!
 a pasta que vcs desejam fazer o clone desse projeto;
 
 - Em seguida, dentro da pasta desejada no git bash, executem o comando
-"git clone https://github.com/qwertyFFF/projetofinal.git"
+"git clone git@github.com:qwertyFFF/projetofinal.git"
 
 - Aguardem uns minutos, até finalizar o clone;
 
@@ -14,6 +14,10 @@ a pasta que vcs desejam fazer o clone desse projeto;
 IMPORTANTE: Abram o projeto -> adocaoapp2;
 
 - Depois disso, abram o CMD e naveguem até a pasta do projeto -> adocaoapp2;
+
+- Executem o comando dentro da pasta adocaoapp2 o comando "npm install";
+
+- Config. portas entre PC e Device executar o comando no CMD: adb reverse tcp:8081 tcp:8081
 
 - Ativem no celular de vcs o modo programador e o modo debug do celular de vcs.
 OBS: Tem no curso da Udemy como fazer isso, é bem simples;
@@ -28,7 +32,7 @@ assim o React vai ver que vcs possuem um dispositivo conectado para executar o d
 
 - Aguardem uns minutos o React executar o debug no celular de vcs;
 
-- Apos isso ele ira instalar o App no celular de vcs  pronto;
+- Apos isso ele ira instalar o App no celular de vcs pronto;
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
